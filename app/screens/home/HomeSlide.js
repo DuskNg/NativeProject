@@ -26,7 +26,7 @@ export default function HomeSlide() {
   const scrollX = useRef(new Animated.Value(0)).current;
   const modalIconAnimated = useRef(new Animated.Value(1.2)).current;
   const showModalAnimated = useRef(new Animated.Value(100 - width)).current;
-
+  console.log("📢 [HomeSlide.js:29]", "fix home page");
   const slidesRef = useRef(null);
 
   const viewableItemsChanged = useRef(({ viewableItems }) => {
