@@ -3,6 +3,7 @@ import React from "react";
 
 export default function PaginationSlide({ data, scrollX }) {
   const { width } = useWindowDimensions();
+  console.log("📢 [PaginationSlide.js:6]", "Fix pagination page");
   return (
     <View style={styles.wrapper}>
       {data.map((_, i) => {
